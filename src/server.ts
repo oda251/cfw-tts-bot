@@ -4,8 +4,8 @@ import {
   InteractionResponseType,
   InteractionType,
 } from 'discord-api-types/v10';
-import { logRequest, verifyDiscordInteraction } from "./middleware.js";
-import { getRandomTtsQuiz } from "./usecase/usecase.js";
+import { logRequest, verifyDiscordInteraction } from "./middleware";
+import { getRandomTtsQuiz } from "./usecase/usecase";
 import { ttsQuiz } from "./commands.js";
 import { Hono } from "hono";
 
